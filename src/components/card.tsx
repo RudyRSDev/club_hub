@@ -1,12 +1,15 @@
-const Card = () => {
+// import { FaFacebookF, FaDiscord } from "react-icons/fa";
+
+const Card = ({Title, Descpt, Links}:any) => {
     return (
         <div className="card card-compact w-96 bg-base-200 shadow-xl">
-            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+            <figure><img src="https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg" alt="Shoes" /></figure>
             <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 className="card-title">{Title}</h2>
+                <p>{Descpt}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
+                    {/* Map Links to buttons */}
+                    <button className="btn btn-primary">Test</button>
                 </div>
             </div>
         </div>
