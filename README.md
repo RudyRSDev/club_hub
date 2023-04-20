@@ -1,5 +1,6 @@
 # CSULB Club HUB
 
+
 ## Create A Branch
 
 - Create a Branch of Main [Github Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
