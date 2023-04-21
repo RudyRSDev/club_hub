@@ -26,6 +26,16 @@ const clubs = [
         url: "https://www.facebook.com/acm.illinois/"
       }
     ]
+  },
+  {
+    title: "AI",
+    description: "Stanford AI",
+    links : [
+      {
+        name: "Website",
+        url: "https://ai.stanford.edu/"
+      }
+    ]
   }
 ]
 export default clubs;
