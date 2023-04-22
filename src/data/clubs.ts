@@ -14,8 +14,8 @@ const clubs = [
     ]
   },
   {
-    title: "ACM-W",
-    description: "test",
+    title: "ILL-W",
+    description: "test two description",
     links : [
       {
         name: "Website",
@@ -23,6 +23,10 @@ const clubs = [
       },
       {
         name: "Facebook",
+        url: "https://www.facebook.com/acm.illinois/"
+      },
+      {
+        name: "Instagram",
         url: "https://www.facebook.com/acm.illinois/"
       }
     ]

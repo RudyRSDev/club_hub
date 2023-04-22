@@ -31,4 +31,4 @@ const Card = ({Title, Descpt, Links}: CardProps) => {
     )
 }
 
-export default Card
+export default Card;
