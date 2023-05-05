@@ -12,7 +12,7 @@ interface LinkType {
 
 const EventCard = ({Title, Descpt, Date, Link}: EventCardProps) => {
     return (
-        <div className="card card-compact w-96 bg-base-200 shadow-xl">
+        <div className="card card-compact w-50 bg-base-200 shadow-xl border mt-2 mb-2">
             <div className="card-body">
                 <h2 className="card-title">{Title}</h2>
                 <h2>{Date}</h2>
