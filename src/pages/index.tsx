@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="bg-base-100">
       <NavBar/>
-      <div className="cards-section">
+      <div className="cards-section whitespace-nowrap">
         {club_data.map((item, index) => {
           return (
             <Card key={index} Title={item.title} Descpt={item.description} Links={item.links}/>
