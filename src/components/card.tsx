@@ -17,7 +17,7 @@ const Card = ({Title, Descpt, Links}: CardProps) => {
             <div className="card-body">
                 <h2 className="card-title">{Title}</h2>
                 <p>{Descpt}</p>
-                <div className="card-actions justify-end">
+                <div className="card-actions justify-end shadow-white">
                     {/* Map Links to buttons */
                         Links.map(link => (
                           <a href={link.url} target="_blank" rel="noopener noreferrer" key={link.name}>
