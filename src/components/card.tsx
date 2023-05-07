@@ -28,7 +28,7 @@ const Card = ({Title, Descpt, Links}: CardProps) => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Card;

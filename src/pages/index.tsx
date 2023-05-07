@@ -2,6 +2,8 @@ import { Inter } from 'next/font/google'
 import Card from '@/components/card'
 import EventCard from '@/components/event_card'
 import NavBar from '@/components/navbar'
+
+import EventBar from '@/components/eventbar'
 import club_data from '@/data/clubs'
 import event_data from '@/data/events'
 
@@ -19,15 +21,7 @@ export default function Home() {
           )
         })}
       </div>
-      <div className="events-section overflow-x-scroll whitespace-nowrap">
-        {event_data.map((item, index) => {
-          return (
-            <div key={index} className="inline-block">
-              <EventCard Title={item.title} Descpt={item.description} Date={item.date} Link={item.link}/>
-            </div>
-          )
-        })}
-      </div>
+      <EventBar/>
     </div>
   )
 }
