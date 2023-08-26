@@ -1,4 +1,4 @@
-import EventCard from '@/components/event_card'
+import EventCard from '@/components/eventCard'
 import event_data from '@/data/events'
 
 const EventBar = () => {

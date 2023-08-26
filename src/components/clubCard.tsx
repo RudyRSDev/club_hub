@@ -21,7 +21,7 @@ const Card = ({Title, Descpt, Links}: CardProps) => {
                     {/* Map Links to buttons */
                         Links.map(link => (
                           <a href={link.url} target="_blank" rel="noopener noreferrer" key={link.name}>
-                            <button className="btn btn-primary">{link.name}</button>
+                            <button className="btn btn-primary rounded-2xl">{link.name}</button>
                           </a>
                         ))
                     }
