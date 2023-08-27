@@ -1,9 +1,10 @@
+import Link from "next/link"
 import NavDropdown from "./navDropdown";
 
 const NavBar =
   () => {
     return (
-      <div className="navbar bg-secondary text-black">
+      <div className="navbar bg-secondary text-black h-24">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,11 +21,15 @@ const NavBar =
               <li><a>Item 3</a></li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">CLUB HUB</a>
+          <a className="btn btn-ghost normal-case text-2xl">
+            <Link href="/">CLUB HUB</Link>
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li><a>CLUBS</a></li>
+            <li className="normal-case text-xl">
+              <Link href="/clubs">CLUBS</Link>
+            </li>
             <li tabIndex={0}>
               <details>
                 <summary>Parent</summary>
@@ -34,7 +39,9 @@ const NavBar =
                 </ul>
               </details>
             </li>
-            <li><a>EVENTS</a></li>
+            <li className="normal-case text-xl">
+              <Link href="/events">EVENTS</Link>
+            </li>
           </ul>
         </div>
         <div className="navbar-end">

@@ -1,3 +1,3 @@
 export default function Page() {
-    return <h1>EVENTS</h1>
+    return <h1>CLUBS</h1>
 }

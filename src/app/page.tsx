@@ -10,7 +10,6 @@ import NavBar from '@/components/navBar'
 export default function Home() {
   return (
     <div className="bg-accent">
-      <NavBar />
       <div className="cards-section whitespace-nowrap">
         {clubData.map((item, index) => {
           return (
