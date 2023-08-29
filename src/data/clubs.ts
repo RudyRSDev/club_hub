@@ -2,7 +2,7 @@ const clubs = [
   {
     title: "ACM",
     description: "Association for Computing Machinery",
-    links : [
+    weblinks: [
       {
         name: "Website",
         url: "https://acm.illinois.edu/"
@@ -16,7 +16,7 @@ const clubs = [
   {
     title: "ILL-W",
     description: "test two description",
-    links : [
+    weblinks: [
       {
         name: "Website",
         url: "https://acm.illinois.edu/"
@@ -34,7 +34,7 @@ const clubs = [
   {
     title: "AI",
     description: "Stanford AI",
-    links : [
+    weblinks: [
       {
         name: "Website",
         url: "https://ai.stanford.edu/"

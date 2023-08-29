@@ -13,7 +13,7 @@ export default function Home() {
       <div className="cards-section whitespace-nowrap">
         {clubData.map((item, index) => {
           return (
-            <Card key={index} Title={item.title} Descpt={item.description} Links={item.links}/>
+            <Card key={index} title={item.title} description={item.description} weblinks={item.weblinks}/>
           )
         })}
       </div>

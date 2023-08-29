@@ -17,9 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className}`}>
+      <body className={`${inter.className} bg-accent`}>
         <NavBar />
-        {children}
+        <div className="bg-accent">
+          {children}
+        </div>
       </body>
     </html>
   )
